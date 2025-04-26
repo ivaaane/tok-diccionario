@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+    <style>
+        @page {
+            size: A6;
+            margin: 0.75cm;
+        }
+
+        body {
+            font-size: 90%;
+        }
+
+        #header {
+            text-align: center;
+            font-size: 160%;
+            font-weight: bold;
+        }
+
+        #sitelen {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            svg {
+                margin: 0;
+                width: 10%;
+                height: auto;
+            }
+        }
+
+        #body {
+            text-align: center;
+        }
+
+        #list {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+            p {
+                font-style: italic;
+                font-size: 80%;
+                margin: 2px;
+                text-align: center;
+            }
+        }
+
+        #translations {
+            display: flex;
+            justify-content: center;
+
+            table {
+                padding: 15px;
+                font-size: 80%;
+
+                td {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+
+                td.tp {
+                    font-style: italic;
+                }
+            }
+        }
+
+        #note {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 70%;
+            font-style: italic;
+        }
+    </style>
+<body>
+    <main>
+        <p id="header">mute</p>
+        <div id="sitelen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1386">
+    <g transform="translate(0, 1000) scale(1, -1)">
+        <path d="M750 -50C778 -50 800 -28 800 0V800C800 828 778 850 750 850C722 850 700 828 700 800V0C700 -28 722 -50 750 -50ZM250 -50C278 -50 300 -28 300 0V800C300 828 278 850 250 850C222 850 200 828 200 800V0C200 -28 222 -50 250 -50ZM500 -40C528 -40 550 -18 550 10V790C550 818 528 840 500 840C472 840 450 818 450 790V10C450 -18 472 -40 500 -40Z" />
+    </g>
+</svg></div>
+        <p id="body">Cantidades, normalmente altas.</p>
+        <div id="list"><p>Muchos individuos.<br>Cantidades de un recurso.<br>Aumentar la cantidad de algo.<br>El número 33.<br></p></div>
+        <hr/>
+        <div id="translations"><table><tr><td>jan mute li lon.</td><td>Hay muchas personas.</td></tr><tr><td>pipi pi mute lili li moku.</td><td>Pocos bichos están comiendo.</td></tr><tr><td>o mute e pona.</td><td>Multiplica la bondad.</td></tr><tr><td>ken li mute.</td><td>Las posibilidades son varias.</td></tr><tr><td>ni li pona mute a!</td><td>¡Esto es muy bueno!</td></tr></table></div>
+    </main>
+    <footer id="note">En sistemas de numeración complejos, mute se utiliza para 20.</footer>
+</body>
+</html>

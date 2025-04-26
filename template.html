@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+    <style>
+        @page {
+            size: A6;
+            margin: 0.75cm;
+        }
+
+        body {
+            font-size: 90%;
+        }
+
+        #header {
+            text-align: center;
+            font-size: 160%;
+            font-weight: bold;
+        }
+
+        #sitelen {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            svg {
+                margin: 0;
+                width: 10%;
+                height: auto;
+            }
+        }
+
+        #body {
+            text-align: center;
+        }
+
+        #list {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+            p {
+                font-style: italic;
+                font-size: 80%;
+                margin: 2px;
+                text-align: center;
+            }
+        }
+
+        #translations {
+            display: flex;
+            justify-content: center;
+
+            table {
+                padding: 15px;
+                font-size: 80%;
+
+                td {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+
+                td.tp {
+                    font-style: italic;
+                }
+            }
+        }
+
+        #note {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 70%;
+            font-style: italic;
+        }
+    </style>
+<body>
+    <main>
+        <p id="header">{{name}}</p>
+        <div id="sitelen">{{sitelen}}</div>
+        <p id="body">{{body}}</p>
+        <div id="list"><p>{{examples}}</p></div>
+        <hr/>
+        <div id="translations"><table>{{translations}}</table></div>
+    </main>
+    <footer id="note">{{note}}</footer>
+</body>
+</html>

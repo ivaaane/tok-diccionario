@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+    <style>
+        @page {
+            size: A6;
+            margin: 0.75cm;
+        }
+
+        body {
+            font-size: 90%;
+        }
+
+        #header {
+            text-align: center;
+            font-size: 160%;
+            font-weight: bold;
+        }
+
+        #sitelen {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            svg {
+                margin: 0;
+                width: 10%;
+                height: auto;
+            }
+        }
+
+        #body {
+            text-align: center;
+        }
+
+        #list {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+            p {
+                font-style: italic;
+                font-size: 80%;
+                margin: 2px;
+                text-align: center;
+            }
+        }
+
+        #translations {
+            display: flex;
+            justify-content: center;
+
+            table {
+                padding: 15px;
+                font-size: 80%;
+
+                td {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+
+                td.tp {
+                    font-style: italic;
+                }
+            }
+        }
+
+        #note {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 70%;
+            font-style: italic;
+        }
+    </style>
+<body>
+    <main>
+        <p id="header">ale</p>
+        <div id="sitelen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1386">
+    <g transform="translate(0, 1000) scale(1, -1)">
+        <path d="M563 400C599 446 629 482 657 508C690 538 717 550 746 550C776 550 800 538 818 515C837 491 850 452 850 400C850 348 837 309 818 285C800 262 776 250 746 250C717 250 690 262 657 292C629 318 599 354 563 400ZM437 400C401 354 371 318 343 292C310 262 283 250 254 250C224 250 200 262 182 285C163 309 150 348 150 400C150 452 163 491 182 515C200 538 224 550 254 550C283 550 310 538 343 508C371 482 401 446 437 400ZM50 400C50 267 125 150 254 150C317 150 367 178 411 218C441 245 470 279 500 318C530 279 559 245 589 218C633 178 683 150 746 150C875 150 950 267 950 400C950 533 875 650 746 650C683 650 633 622 589 582C559 555 530 521 500 482C470 521 441 555 411 582C367 622 317 650 254 650C125 650 50 533 50 400Z" />
+    </g>
+</svg></div>
+        <p id="body">Todo, la totalidad de algo.</p>
+        <div id="list"><p>El universo.<br>La existencia.<br>Toda la humanidad.<br>Todos los libros de una colección.<br></p></div>
+        <hr/>
+        <div id="translations"><table><tr><td>ale li pona.</td><td>Todo es bueno.</td></tr><tr><td>jan ale lon ma.</td><td>Todas las personas en el pais.</td></tr><tr><td>sona ale li suli.</td><td>Todo el saber es importante.</td></tr><tr><td>mi moku e moku ale.</td><td>Me comí toda la comida.</td></tr><tr><td>jan ale ala li ike.</td><td>No todas las personas son malas.</td></tr></table></div>
+    </main>
+    <footer id="note">"ali" es una forma alternativa de la palabra, menos común pero igualmente válida, para no causar confusión con "ala".</footer>
+</body>
+</html>

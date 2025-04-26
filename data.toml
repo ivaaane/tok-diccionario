@@ -1,0 +1,75 @@
+[a]
+name = "a"
+body = "Partícula que expresa emoción, como sorpresa o acuerdo, o intensifica la emoción de las frases."
+examples = ["¡Ah!", "¡Oh!", "¡Ok!", "¡Vaya!"]
+translations = [
+    ["a", "Ah."],
+    ["sina suli a!", "¡Eres altísima!"],
+    ["mi wile a weka.", "Tengo muchísimas ganas de irme."],
+    ["a a a!", "¡Ja ja ja!"],
+    ["o toki pona tawa mi a!", "¡¡Háblame en toki pona!!"]
+]
+note = "No contiene ningún significado por si mismo, así que no puede usarse como objecto o verbo, solo modificador al final de frases nominales y oraciones o de interjección."
+
+[akesi]
+name = "akesi"
+body = "Reptiles, anfibios y criaturas relacionadas, caracterizadas por ser terrestres y frias al tacto."
+examples = ["Lagartos.", "Tortugas.", "Ranas.", "Crocodilos."]
+translations = [
+    ["akesi li suwi.", "Los reptiles son adorables."],
+    ["akesi li tawa e tomo ona", "Un reptil transporta su hogar."],
+    ["mi pilin ike tan akesi.", "Me siento mal debido a los reptiles."],
+    ["akesi ni li lon kiwen.", "Ese anfibio está en una piedra."],
+    ["akesi kiwen ni li sewi lili.", "Esta tortuga es un dios menor."]
+]
+note = "El significado original se refería a \"animales feos\". Esta definición quedó obsoleta cuando los tokiponistas descubrieron que las ranas pueden resultar muy tiernas."
+
+[ala]
+name = "ala"
+body = "Nada, la ausencia de algo. Mayoritariamente, se utiliza para negar otras palabras."
+examples = ["Nadie.", "El vacio.", "No hacer una acción.", "Personas que se atreven a enfrentarme."]
+translations = [
+    ["ala li lukin e mi.", "Nadie me mira."],
+    ["ona li tawa ma ala.", "No va a ninguna parte."],
+    ["sina sama jan ala.", "No eres igual a otras personas."],
+    ["mi sona ala e tan.", "No conozco el motivo."]
+]
+note = "\"ala\" es una semipartícula; es decir, sirve tanto como palabra estandar como para alterar el significado de otras palabras."
+
+[alasa]
+name = "alasa"
+body = "La acción de intentar o buscar."
+examples = ["Buscar un objeto perdido.", "Recolectar frutos.", "Cazar presas.", "Recolectar información."]
+translations = [
+    ["mi alasa e lipu.", "Estoy buscando un libro."],
+    ["soweli li alasa e kala.", "Los animales cazan peces."],
+    ["alasa ona li pini.", "Su búsqueda terminó."],
+    ["sina alasa sona e ona.", "Intentas conocerle."]
+]
+note = "Originalmente, \"lukin\" en vez de \"alasa\" tiene la función de preverbo para \"intentar\" (e.j.: mi lukin sona e ona). Actualmente, este uso es menos común y se prefiere \"alasa\" para dicho preverbo."
+
+[ale]
+name = "ale"
+body = "Todo, la totalidad de algo."
+examples = ["El universo.", "La existencia.", "Toda la humanidad.", "Todos los libros de una colección."]
+translations = [
+    ["ale li pona.", "Todo es bueno."],
+    ["jan ale lon ma.", "Todas las personas en el pais."],
+    ["sona ale li suli.", "Todo el saber es importante."],
+    ["mi moku e moku ale.", "Me comí toda la comida."],
+    ["jan ale ala li ike.", "No todas las personas son malas."]
+]
+note = "\"ali\" es una forma alternativa de la palabra, menos común pero igualmente válida, para no causar confusión con \"ala\"."
+
+[mute]
+name = "mute"
+body = "Cantidades, normalmente altas."
+examples = ["Muchos individuos.", "Cantidades de un recurso.", "Aumentar la cantidad de algo.", "El número 33."]
+translations = [
+    ["jan mute li lon.", "Hay muchas personas."],
+    ["pipi pi mute lili li moku.", "Pocos bichos están comiendo."],
+    ["o mute e pona.", "Multiplica la bondad."],
+    ["ken li mute.", "Las posibilidades son varias."],
+    ["ni li pona mute a!", "¡Esto es muy bueno!"]
+]
+note = "En sistemas de numeración complejos, mute se utiliza para 20."
