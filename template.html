@@ -6,12 +6,12 @@
 </head>
     <style>
         @page {
-            size: A6;
+            size: A5;
             margin: 0.75cm;
         }
 
         body {
-            font-size: 90%;
+            font-size: 100%;
         }
 
         #header {
@@ -27,7 +27,7 @@
 
             svg {
                 margin: 0;
-                width: 10%;
+                width: 15%;
                 height: auto;
             }
         }
@@ -39,7 +39,7 @@
         #list {
             width: 50%;
             margin: 0 auto;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
 
             p {
                 font-style: italic;
@@ -47,6 +47,12 @@
                 margin: 2px;
                 text-align: center;
             }
+        }
+
+        #etymology {
+            text-align: center;
+            font-size: 80%;
+            margin-bottom: 30px;
         }
 
         #translations {
@@ -82,6 +88,7 @@
         <div id="sitelen">{{sitelen}}</div>
         <p id="body">{{body}}</p>
         <div id="list"><p>{{examples}}</p></div>
+        <p id="etymology">{{etymology}}</p>
         <hr/>
         <div id="translations"><table>{{translations}}</table></div>
     </main>

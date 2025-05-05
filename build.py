@@ -1,4 +1,3 @@
-#!/bin/python
 import toml
 
 with open('data.toml', 'r') as f:
@@ -11,6 +10,7 @@ for word in data.values():
     doc = doc.replace('{{name}}', word['name'])
     doc = doc.replace('{{body}}', word['body'])
     doc = doc.replace('{{note}}', word['note'])
+    doc = doc.replace('{{etymology}}', word['etymology'])
 
     with open('vectors/' + word['name'] + '.svg', 'r') as svg:
         doc = doc.replace('{{sitelen}}', svg.read())

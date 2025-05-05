@@ -2,6 +2,7 @@
 name = "a"
 body = "Partícula que expresa emoción, como sorpresa o acuerdo, o intensifica la emoción de las frases."
 examples = ["¡Ah!", "¡Oh!", "¡Ok!", "¡Vaya!"]
+etymology = "De la onomatopeya <p>ah</i>."
 translations = [
     ["a", "Ah."],
     ["sina suli a!", "¡Eres altísima!"],
@@ -15,6 +16,7 @@ note = "No contiene ningún significado por si mismo, así que no puede usarse c
 name = "akesi"
 body = "Reptiles, anfibios y criaturas relacionadas, caracterizadas por ser terrestres y frias al tacto."
 examples = ["Lagartos.", "Tortugas.", "Ranas.", "Crocodilos."]
+etymology = "Del neerlandés <i>hagedis</i>."
 translations = [
     ["akesi li suwi.", "Los reptiles son adorables."],
     ["akesi li tawa e tomo ona", "Un reptil transporta su hogar."],
@@ -27,11 +29,12 @@ note = "El significado original se refería a \"animales feos\". Esta definició
 [ala]
 name = "ala"
 body = "Nada, la ausencia de algo. Mayoritariamente, se utiliza para negar otras palabras."
-examples = ["Nadie.", "El vacio.", "No hacer una acción.", "Personas que se atreven a enfrentarme."]
+examples = ["Nadie.", "El vacio.", "No hacer una acción."]
+etymology = "Del georgiano <i>არა (ara)</i>."
 translations = [
     ["ala li lukin e mi.", "Nadie me mira."],
     ["ona li tawa ma ala.", "No va a ninguna parte."],
-    ["sina sama jan ala.", "No eres igual a otras personas."],
+    ["sina sama jan ante ala.", "No eres igual a otras personas."],
     ["mi sona ala e tan.", "No conozco el motivo."]
 ]
 note = "\"ala\" es una semipartícula; es decir, sirve tanto como palabra estandar como para alterar el significado de otras palabras."
@@ -40,6 +43,7 @@ note = "\"ala\" es una semipartícula; es decir, sirve tanto como palabra estand
 name = "alasa"
 body = "La acción de intentar o buscar."
 examples = ["Buscar un objeto perdido.", "Recolectar frutos.", "Cazar presas.", "Recolectar información."]
+etymology = "Del francés acadiano <i>à la chasse</i>."
 translations = [
     ["mi alasa e lipu.", "Estoy buscando un libro."],
     ["soweli li alasa e kala.", "Los animales cazan peces."],
@@ -52,6 +56,7 @@ note = "Originalmente, \"lukin\" en vez de \"alasa\" tiene la función de prever
 name = "ale"
 body = "Todo, la totalidad de algo."
 examples = ["El universo.", "La existencia.", "Toda la humanidad.", "Todos los libros de una colección."]
+etymology = "Del neerlandés <i>alle</i>."
 translations = [
     ["ale li pona.", "Todo es bueno."],
     ["jan ale lon ma.", "Todas las personas en el pais."],
@@ -65,6 +70,7 @@ note = "\"ali\" es una forma alternativa de la palabra, menos común pero igualm
 name = "mute"
 body = "Cantidades, normalmente altas."
 examples = ["Muchos individuos.", "Cantidades de un recurso.", "Aumentar la cantidad de algo.", "El número 33."]
+etymology = "Del esperanto <i>multe</i>."
 translations = [
     ["jan mute li lon.", "Hay muchas personas."],
     ["pipi pi mute lili li moku.", "Pocos bichos están comiendo."],
